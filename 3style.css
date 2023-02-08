@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:monospace;
+    background-color: aliceblue;
+    background-image:url('https://media.istockphoto.com/id/944687452/photo/dairy-farm-cows-indoor-in-the-shed.jpg?s=612x612&w=0&k=20&c=9ViSgBunyNyAJzaHvvLExOKWVphKGXArjj7vR7fm6uw=');
+}
+.container{
+    display:grid;
+    grid-template-columns:200px 1fr 1fr;
+    grid-template-rows:80px auto 100px;
+    height:100vh;
+
+}
+header{
+    background-color:aqua;
+    grid-column-start: span 3;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+nav h1 span{
+    color:red;
+}
+}
+nav{
+    dispaly:flex;
+    justify-content:center;
+    text-align:center;
+    margin:0;
+    
+}
+nav ul li 
+{
+    display:inline;
+    text-decoration: none;
+}
+nav ul li a{
+    color:black;
+    padding-left:100px;
+    text-decoration: none;
+    justify-content: left;
+    
+}
+aside{
+    background-color:greenyellow;
+    grid-column-start: span 1;
+}
+main content{
+    background-color: brown;
+    grid-column-start: span 2;
+}
+main content h1 marquee{
+color:blue;
+}
+{
+  color:blue;  
+}
+footer{
+    background-color:blueviolet;
+    grid-column-start: span 3;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
